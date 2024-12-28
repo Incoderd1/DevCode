@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #4c1eff; /* Purple color from the logo */
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #4c1eff;
+}
+
+header img {
+  height: 80px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.services {
+  margin: 20px 0;
+}
+
+.services h2 {
+  color: #fff;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #4c1eff;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #4c1eff;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #4c1eff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2a0e66; /* Darker purple shade */
+}

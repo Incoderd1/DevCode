@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Servicios profesionales de desarrollo de software, aplicaciones móviles y marketing digital para hacer crecer tu negocio."
+    />
+    <meta
+      name="keywords"
+      content="desarrollo de software, aplicaciones móviles, marketing digital, sitios web, soluciones digitales"
+    />
+    <meta name="author" content="InCode" />
+
+    <!-- Meta Open Graph -->
+    <meta property="og:title" content="Servicios Profesionales - InCode" />
+    <meta
+      property="og:description"
+      content="Desarrollamos soluciones digitales personalizadas para tu negocio."
+    />
+    <meta property="og:image" content="ruta-de-la-imagen.jpg" />
+    <meta property="og:url" content="https://www.tusitio.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="./styles/estilos.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="./ImagenEmpresa.png"
+            alt="Logo InCode"
+            style="height: 40px; margin-right: 10px"
+          />
+          <span>InCode</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center py-5 bg-primary text-white">
+      <div class="container">
+        <h1 class="display-4">
+          <span id="dynamic-text">Desarrollo de Software Profesional</span>
+        </h1>
+        <p class="lead">Soluciones Innovadoras para tu Negocio</p>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="container py-5">
+      <h2 class="text-center mb-4">Nuestros Servicios</h2>
+      <div class="row">
+        <!-- Servicio 1 -->
+        <div class="col-md-4">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+              <h3>Desarrollo Web</h3>
+              <p>Webs modernas y funcionales.</p>
+              <div class="tooltip">
+                Creamos sitios web adaptativos y funcionales, optimizados para
+                SEO y enfocados en tus metas comerciales.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Servicio 2 -->
+        <div class="col-md-4">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+              <h3>Apps Móviles</h3>
+              <p>Apps nativas para iOS y Android.</p>
+              <div class="tooltip">
+                Desarrollamos aplicaciones móviles intuitivas y de alto
+                rendimiento para iOS y Android.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Servicio 3 -->
+        <div class="col-md-4">
+          <div class="card service-card">
+            <div class="card-body text-center">
+              <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+              <h3>Marketing Digital</h3>
+              <p>Estrategias de marketing personalizadas.</p>
+              <div class="tooltip">
+                Diseñamos estrategias de marketing digital para aumentar tu
+                visibilidad y ventas en línea.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2 class="text-center mb-4">Contáctanos</h2>
+          <form id="contactForm">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="mensaje"
+                placeholder="Mensaje"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Enviar Mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-light">
+      <div>
+        <a href="https://wa.me/8493153395" class="text-dark mx-2"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/incoderd1/"
+          target="_blank"
+          class="text-dark mx-2"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="mailto:incoderd@gmail.com" class="text-dark mx-2"
+          ><i class="far fa-envelope"></i
+        ></a>
+      </div>
+      <p class="mt-2">&copy; 2024 InCode. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts.js"></script>
+  </body>
+</html>
